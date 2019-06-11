@@ -2,10 +2,13 @@
 def linear_search(arr, target):
   
   # TO-DO: add missing code
+	for i in arr:
+		if i == target:
+			return target
+	return -1   # not found
 
-   return -1   # not found
-
-
+a =[1,2,3,4,5]
+print(linear_search(a,7))
 # STRETCH: write an iterative implementation of Binary Search 
 def binary_search(arr, target):
 

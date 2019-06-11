@@ -25,7 +25,7 @@ def merge_sort(arr):
       arr = merge(left, right)
 
   return arr
-
+#O(nlogn)
 
 # STRETCH: implement an in-place merge sort algorithm
 def merge_in_place(arr, start, mid, end):
